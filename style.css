@@ -1,0 +1,134 @@
+* {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav {
+  display: inline;
+  display: flex;
+  align-items: center;
+  text-decoration: solid;
+  padding: 5px;
+  margin-bottom: 50px;
+  height: 50px;
+}
+nav > img {
+  margin-left: 500px;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 20px;
+  list-style-type: none;
+}
+.boutonnav {
+  margin: 50px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.boutonnav:hover {
+  color: grey;
+}
+
+.boutonnav:active {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
+.titres {
+  font-size: 30px;
+}
+.presentation {
+  height: max-content;
+  display: grid;
+  grid-template-columns: 25% 25%;
+  column-gap: 50px;
+  align-items: center;
+}
+.presentation p {
+  text-align: justify;
+}
+hr {
+  border-color: black;
+}
+
+.nomprojet {
+  text-decoration: underline 20px rgb(248, 245, 245);
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.project {
+  height: max-content;
+  display: grid;
+  grid-template-columns: 50% 25%;
+  align-self: flex-end;
+  column-gap: 50px;
+  justify-items: end;
+}
+th {
+  text-align: center;
+  background-color: rgb(248, 245, 245);
+}
+
+.date {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.titrestab {
+  font-size: 20px;
+}
+
+iframe {
+  border: none;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 500px;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  color: grey;
+}
+
+.backtotop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lientop:hover {
+  color: grey;
+}
+
+.lientop {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: small;
+}
+
+footer {
+  background-color: rgb(248, 245, 245);
+  margin-top: 20px;
+  padding: 2px;
+  text-align: center;
+  p {
+    color: grey;
+  }
+}
