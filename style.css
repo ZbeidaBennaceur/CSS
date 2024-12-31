@@ -1,8 +1,10 @@
+/*relatif a tout le body*/
 * {
   font-family: "Roboto", serif;
   font-weight: 400;
   font-style: normal;
 }
+/*navbar, contenant entier*/
 nav {
   display: inline;
   display: flex;
@@ -12,35 +14,40 @@ nav {
   margin-bottom: 50px;
   height: 50px;
 }
+/*logo du navbar*/
 nav > img {
   margin-left: 500px;
 }
-.navbar {
+/*navbar, contenant pour les boutons*/
+.navbarbtn {
   display: flex;
   justify-content: flex-end;
   width: 100%;
   margin: 20px;
   list-style-type: none;
 }
-.boutonnav {
+/*style des boutons du navbar*/
+.btn {
   margin: 50px;
   padding: 10px;
   color: black;
   text-decoration: none;
   font-weight: bold;
 }
-.boutonnav:hover {
+.btn:hover {
   color: grey;
 }
 
-.boutonnav:active {
+.btn:active {
   color: white;
   background-color: black;
   border-radius: 20px;
 }
+/*style des titres*/
 .titres {
   font-size: 30px;
 }
+/*presentation de l'architecte, photo + texte*/
 .presentation {
   height: max-content;
   display: grid;
@@ -48,20 +55,21 @@ nav > img {
   column-gap: 50px;
   align-items: center;
 }
+/*pour le texte de la présentation */
 .presentation p {
   text-align: justify;
 }
 hr {
   border-color: black;
 }
-
+/*style des noms des projets de la partie présentation*/
 .nomprojet {
   text-decoration: underline 20px rgb(248, 245, 245);
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 50px;
 }
-
+/*contenant projet: texte + image*/
 .project {
   height: max-content;
   display: grid;
@@ -70,29 +78,33 @@ hr {
   column-gap: 50px;
   justify-items: end;
 }
+/*partie more projects*/
+
+
+/* éléments de la 1er ligne du tableau*/
 th {
+  font-size: 20px;
   text-align: center;
   background-color: rgb(248, 245, 245);
 }
-
+/*date de création du projet, dans tableau*/
 .date {
   text-align: center;
   font-weight: bolder;
 }
 
-.titrestab {
-  font-size: 20px;
-}
-
+/*défini toutes les vidéos youtube*/
 iframe {
   border: none;
 }
 
+/*contenant de la vidéo*/
 .video {
   display: flex;
   justify-content: center;
 }
 
+/*formulaire*/
 form {
   width: 500px;
 }
@@ -105,13 +117,13 @@ textarea {
   margin-top: 10px;
   color: grey;
 }
-
+/*contenant fleche + texte back to top*/
 .backtotop {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+/*texte back to top*/
 .lientop:hover {
   color: grey;
 }
@@ -122,7 +134,7 @@ textarea {
   font-weight: bold;
   font-size: small;
 }
-
+/*partie footer*/
 footer {
   background-color: rgb(248, 245, 245);
   margin-top: 20px;
